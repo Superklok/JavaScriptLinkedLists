@@ -208,3 +208,27 @@ At most `2 * 10⁵` calls will be made to `get` and `put`.
 `}`
 <br/>
 <br/>
+
+## Explanation:
+
+I've built the following three classes: `Node`, `DoublyLinkedList`, and `LRUCache`. 
+<br/>
+
+The `Node` class is a basic class that represents a node in a doubly linked list. It has properties for a `key`, `value`, and references to the next and previous nodes.
+<br/>
+
+The `DoublyLinkedList` class represents a doubly linked list. It has properties for the `head`, `tail`, and `length` of the list. It also has methods for pushing a new node to the end of the list and removing a given node from the list.
+<br/>
+
+The `LRUCache` class represents a Least Recently Used (LRU) cache. It has properties for a doubly linked list (DLL), a map, and a capacity. The DLL is used to store the key-value pairs, and the map is used for quick access to the nodes in the DLL. The capacity property determines the maximum number of key-value pairs that can be stored in the cache.
+<br/>
+
+The get method of the `LRUCache` class takes a `key` as input and returns the corresponding `value` from the cache. If the `key` is not found in the map, `-1` is returned. If the `key` is found, the corresponding node is removed from the DLL and then pushed to the end of the DLL to indicate that it was recently used. The `value` is then returned.
+<br/>
+
+The `put` method of the `LRUCache` class takes a `key` and `value` as input and adds the key-value pair to the cache. If the `key` already exists in the cache, the corresponding node is removed from the DLL. The new key-value pair is then added to the cache and the corresponding node is pushed to the end of the DLL. If the `length` of the DLL exceeds the capacity of the cache, the least recently used node (the head of the DLL) is removed from the cache and the map.
+<br/>
+
+In summary, I've defined classes for a doubly linked list and an LRU cache. The LRU cache uses the doubly linked list and a map for efficient storage and retrieval of key-value pairs, with a maximum capacity for the cache. The get method retrieves a value from the cache and updates the position of the corresponding node in the DLL. The put method adds a new key-value pair to the cache and removes the least recently used pair if the cache exceeds its capacity.
+<br/>
+<br/>

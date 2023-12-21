@@ -112,3 +112,33 @@ The number of nodes of `listB` is in the `n`.
 `};`
 <br/>
 <br/>
+
+## Explanation:
+
+I've defined a function called `getIntersectionNode` that takes in two linked lists as parameters, `headA` and `headB`. The purpose of this function is to find the intersection node of the two linked lists and return it.
+<br/>
+
+The function begins by initializing two variables, `currA` and `currB`, to the heads of the linked lists `headA` and `headB` respectively.
+<br/>
+
+Next, it enters a while loop that continues until `currA` is equal to `currB`, indicating that the intersection node has been found.
+<br/>
+
+Inside the while loop, it checks if `currA` is null, which indicates the end of linked list A. If it is null, it sets `currA` to the head of linked list B, as we need to continue traversing list B to find the intersection.
+<br/>
+
+If `currA` is not null, it moves `currA` to the next node in linked list A by setting it to `currA.next`.
+<br/>
+
+Similarly, it checks if `currB` is null, indicating the end of linked list B. If it is null, it sets `currB` to the head of linked list A, as we need to continue traversing list A to find the intersection.
+<br/>
+
+If `currB` is not null, it moves `currB` to the next node in linked list B by setting it to `currB.next`.
+<br/>
+
+Once the while loop breaks, indicating that `currA` is equal to `currB` and the intersection node has been found, the function returns `currA` which represents the intersection node.
+<br/>
+
+In summary, this function iterates through both linked lists simultaneously, moving to the next node in each list until it finds the intersection node. The intersection node is determined when the two pointers, `currA` and `currB`, are equal.
+<br/>
+<br/>
