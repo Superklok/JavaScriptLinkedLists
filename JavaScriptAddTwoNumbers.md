@@ -34,10 +34,7 @@ Output: [8,9,9,9,0,0,0,1]
 
 ### Constraints
 
-```JavaScript
-0 <= Node.val <= 9
-```
-
+- `0 <= Node.val <= 9`
 - The number of nodes in each linked list is in the range `[1, 100]`.
 - It is guaranteed that the list represents a number that does not have leading zeros.
 
@@ -118,3 +115,22 @@ Finally, the function returns the next node of `list`, which is the head of the 
 In summary, this function performs digit-by-digit addition of two linked lists, taking into account carry values, and returns a new linked list representing the sum.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (Reverse Linked List)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Score of Parentheses)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Linked List Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/JavaScriptLinkedLists/blob/main/JavaScriptReverseLinkedList.md
+[Previous]: https://github.com/Superklok/JavaScriptStacks/blob/main/JavaScriptScoreOfParentheses.md
+[More]: https://github.com/Superklok/JavaScriptLinkedLists
+[Return]: https://github.com/Superklok/LearnJavaScript

@@ -28,11 +28,8 @@ Output: [3,2,1,4,5]
 
 ### Constraints
 
-```JavaScript
-1 <= k <= n <= 5000
-0 <= Node.val <= 1000
-```
-
+- `1 <= k <= n <= 5000`
+- `0 <= Node.val <= 1000`
 - The number of nodes in the list is `n`.
 
 <br/>
@@ -107,3 +104,22 @@ Finally, the function returns the value of `head`, which represents the head of 
 In summary, the `reverseKGroup` function reverses a linked list in groups of size `k` by recursively reversing the remaining portion of the list and then reversing the current group of nodes. The function returns the head of the reversed linked list.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (LRU Cache)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Intersection of Two Linked Lists)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Linked List Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/JavaScriptLinkedLists/blob/main/JavaScriptLRUCache.md
+[Previous]: https://github.com/Superklok/JavaScriptLinkedLists/blob/main/JavaScriptIntersectionOfTwoLinkedLists.md
+[More]: https://github.com/Superklok/JavaScriptLinkedLists
+[Return]: https://github.com/Superklok/LearnJavaScript

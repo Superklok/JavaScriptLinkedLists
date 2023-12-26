@@ -35,12 +35,9 @@ lRUCache.get(4);    // return 4
 
 ### Constraints
 
-```JavaScript
-1 <= capacity <= 3000
-0 <= key <= 10⁴
-0 <= value <= 10⁵
-```
-
+- `1 <= capacity <= 3000`
+- `0 <= key <= 10⁴`
+- `0 <= value <= 10⁵`
 - At most `2 * 10⁵` calls will be made to `get` and `put`.
 
 <br/>
@@ -159,3 +156,22 @@ The `put` method of the `LRUCache` class takes a `key` and `value` as input and 
 In summary, I've defined classes for a doubly linked list and an LRU cache. The LRU cache uses the doubly linked list and a map for efficient storage and retrieval of key-value pairs, with a maximum capacity for the cache. The get method retrieves a value from the cache and updates the position of the corresponding node in the DLL. The put method adds a new key-value pair to the cache and removes the least recently used pair if the cache exceeds its capacity.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (Test-Driven Development)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Reverse Nodes in k-Group)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Linked List Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/ProgrammingPrinciples/blob/main/TestDrivenDevelopment.md
+[Previous]: https://github.com/Superklok/JavaScriptLinkedLists/blob/main/JavaScriptReverseNodesInKGroup.md
+[More]: https://github.com/Superklok/JavaScriptLinkedLists
+[Return]: https://github.com/Superklok/LearnJavaScript

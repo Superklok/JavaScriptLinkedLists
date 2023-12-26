@@ -24,12 +24,9 @@ Output: [5]
 
 ### Constraints
 
-```JavaScript
-1 <= n <= 500
--500 <= Node.val <= 500
-1 <= left <= right <= n
-```
-
+- `1 <= n <= 500`
+- `-500 <= Node.val <= 500`
+- `1 <= left <= right <= n`
 - The number of nodes in the list is `n`.
 
 <br/>
@@ -96,9 +93,28 @@ After exiting the second loop, the `prev` variable will be pointing to the last 
 The `next` pointer of the `start` node is set to `prev` to connect the reversed portion to the rest of the list. The  `next`  pointer of the `tail` node is set to `cur` to connect the end of the reversed portion to the remaining nodes.
 <br/>
 
-Finally, the function returns `prev` if `m` is equal to 1, indicating that the reversal starts from the beginning of the list. Otherwise, it returns `head`, which is the original head of the list.
+Finally, the function returns `prev` if `m` is equal to `1`, indicating that the reversal starts from the beginning of the list. Otherwise, it returns `head`, which is the original head of the list.
 <br/>
 
 In summary, this function reverses a portion of a linked list by modifying the `next` pointers of the nodes. It iterates through the list to find the starting and ending nodes of the portion to be reversed, and then reverses the `next` pointers of the nodes within that portion.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (Odd Even Linked List)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Reverse Linked List)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Linked List Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/JavaScriptLinkedLists/blob/main/JavaScriptOddEvenLinkedList.md
+[Previous]: https://github.com/Superklok/JavaScriptLinkedLists/blob/main/JavaScriptReverseLinkedList.md
+[More]: https://github.com/Superklok/JavaScriptLinkedLists
+[Return]: https://github.com/Superklok/LearnJavaScript

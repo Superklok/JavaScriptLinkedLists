@@ -56,13 +56,10 @@ Explanation: The intersected node's value is 8 (note that this must not be 0 if 
 
 ### Constraints
 
-```JavaScript
-1 <= m, n <= 3 * 10⁴
-1 <= Node.val <= 10⁵
-0 <= skipA < m
-0 <= skipB < n
-```
-
+- `1 <= m, n <= 3 * 10⁴`
+- `1 <= Node.val <= 10⁵`
+- `0 <= skipA < m`
+- `0 <= skipB < n`
 - The number of nodes of `listA` is in the `m`.
 - The number of nodes of `listB` is in the `n`.
 - `intersectVal` is `0` if `listA` and `listB` do not intersect.
@@ -126,3 +123,22 @@ Once the while loop breaks, indicating that `currA` is equal to `currB` and the 
 In summary, this function iterates through both linked lists simultaneously, moving to the next node in each list until it finds the intersection node. The intersection node is determined when the two pointers, `currA` and `currB`, are equal.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (Reverse Nodes in k-Group)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Odd Even Linked List)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Linked List Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/JavaScriptLinkedLists/blob/main/JavaScriptReverseNodesInKGroup.md
+[Previous]: https://github.com/Superklok/JavaScriptLinkedLists/blob/main/JavaScriptOddEvenLinkedList.md
+[More]: https://github.com/Superklok/JavaScriptLinkedLists
+[Return]: https://github.com/Superklok/LearnJavaScript

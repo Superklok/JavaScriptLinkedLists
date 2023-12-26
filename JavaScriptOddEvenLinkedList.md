@@ -30,10 +30,7 @@ Output: [2,3,6,7,1,5,4]
 
 ### Constraints
 
-```JavaScript
--10⁶ <= Node.val <= 10⁶
-```
-
+- `-10⁶ <= Node.val <= 10⁶`
 - The number of nodes in the linked list is in the range `[0, 10⁴]`.
 
 <br/>
@@ -92,3 +89,22 @@ Finally, the function returns the `head` of the rearranged linked list.
 In summary, this function rearranges a linked list such that all odd-indexed nodes come before even-indexed nodes. It achieves this by iterating through the linked list, skipping over even-indexed nodes and linking the odd-indexed nodes to the even-indexed nodes. The function then returns the head of the rearranged linked list.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (Intersection of Two Linked Lists)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Reverse Linked List II)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Linked List Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/JavaScriptLinkedLists/blob/main/JavaScriptIntersectionOfTwoLinkedLists.md
+[Previous]: https://github.com/Superklok/JavaScriptLinkedLists/blob/main/JavaScriptReverseLinkedListII.md
+[More]: https://github.com/Superklok/JavaScriptLinkedLists
+[Return]: https://github.com/Superklok/LearnJavaScript

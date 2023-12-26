@@ -31,10 +31,7 @@ Output: []
 
 ### Constraints
 
-```JavaScript
--5000 <= Node.val <= 5000
-```
-
+- `-5000 <= Node.val <= 5000`
 - The number of nodes in the list is the range `[0, 5000]`.
 
 <br/>
@@ -92,3 +89,22 @@ Finally, the `backward` variable is returned as the result of the function, repr
 In summary, this function takes a linked list as input and reverses the order of the nodes in the list. It does this by iterating through the original list, updating the links between nodes to reverse the order, and returning the head node of the reversed list.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (Reverse Linked List II)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Add Two Numbers)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Linked List Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/JavaScriptLinkedLists/blob/main/JavaScriptReverseLinkedListII.md
+[Previous]: https://github.com/Superklok/JavaScriptLinkedLists/blob/main/JavaScriptAddTwoNumbers.md
+[More]: https://github.com/Superklok/JavaScriptLinkedLists
+[Return]: https://github.com/Superklok/LearnJavaScript
